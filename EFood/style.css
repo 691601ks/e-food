@@ -1,0 +1,813 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #FFFFFF61;
+}
+
+.header-sitebar {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 136px;
+    margin-right: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.E {
+    font-family: Rubik;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 39.11px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF6838;
+}
+
+.Food {
+    font-family: Rubik;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 39.11px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.Home {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #FF6838;
+}
+
+.Service {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.Topsities {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.Contract {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.signupHeadr {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration: none;
+    background-color: #FF7A50;
+    color: white;
+    border: 15px solid #FF7A50;
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+}
+
+.logo {
+    display: flex;
+    margin-right: 350px;
+}
+.header-content {
+    margin-left: 132px;
+    display: flex;
+}
+
+#color-orange {
+    color: #FF6838;
+}
+
+.main-text {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+    margin-top: 200px;
+}
+
+.main-text > span {
+    color: #FF6838;
+}
+
+.header-image {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.header-image > img {
+    width: 800px;
+    height: auto
+}
+
+.small-text {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Explorefood {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding: 8px;
+    border: 5px solid #FF6838;
+    background-color: #FF6838;
+    border-radius: 5px;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+}
+
+.Download {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 40px;
+}
+
+.main-text2 {
+    display: flex;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.66px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+.Burger {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 15px solid #FF7A50;
+    background-color: #FF7A50;
+    border-radius: 8px;
+    color: white;
+}
+
+.Burger2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+#text-burger {
+    margin-left: 15px;
+}
+
+.Pizza {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: #363853;
+}
+
+.Pizza2 {
+    display: flex;
+    align-items: center;
+    margin: -11px 30px;
+}
+
+#text-pizza {
+    margin-left: 15px;
+}
+
+.Sandwich {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: #363853;
+}
+
+.Sandwich2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+#text-sandwich {
+    margin-left: 15px;
+}
+
+.Asian-food {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: #363853;
+}
+
+.Asian-food2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+#text-asianfood {
+    margin-left: 15px;
+}
+
+.Setmenu {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: #363853;
+}
+
+.Setmenu2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+#text-setmenu {
+    margin-left: 15px;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.cont1 {
+    align-items: center;
+    background-color: white;
+    border: 5px solid #FFFFFF;
+    border-radius: 12px;
+    width: 212px;
+    height: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-menu {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    
+}
+.addcart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 20px;
+    background-color: #FF6838;
+    border: 10px solid #FF6838;
+}
+
+.Scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.imagefull {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -300px;
+}
+
+.text3 {
+    margin-top: 300px;
+    margin-left: 50px;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#text-small {
+    margin-top: 25px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#363853;
+}
+
+.isobrazhenie {
+    margin-top: 30px;
+    display: flex;
+}
+
+#text-text {
+    margin-left: 20px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.button {
+    margin-top: 40px;
+    display: flex;
+}
+
+.text-button {
+    border: 20px solid #FF7A50;
+    border-radius: 30px 30px 1px 30px;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    background-color: #FF7A50;
+    padding: 0px 25px;
+}
+
+.main-4 {
+    flex-direction: row;
+    margin-top: 160px;
+}
+
+
+.main-text4 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.boxes-6 {
+    margin-top: 50px;
+}
+
+.boxes-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxes-33 {
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-5 {
+    display: flex;
+    margin-top: 165px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Zagolovok {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.text-osnova {
+    margin-top: 30px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+
+.icon {
+    display: flex;
+    margin-top: 30px;
+    gap: 35px;
+}
+
+.main-6 {
+    margin-top: 167px;
+}
+
+.text-main6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.66px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.other-info {
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+    margin-left: 100px;
+}
+
+.absolute {
+    position: absolute;
+    top: 5250px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF6838;
+}
+.absolute1 {
+    position: absolute;
+    top: 5290px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #AAAAAA;
+}
+
+.main-7 {
+    margin-top: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-back {
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6838;
+    border: 5px solid #FF6838;
+    padding: 60px 60px;
+    border-radius: 20px;
+}
+
+.Subcscribee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.GetOut {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-weight: 300;
+}
+
+.border-white {
+    margin-top: 31px;
+    display: flex;
+    
+    align-items: center;
+    border: 20px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: white;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+    width: 1000px;
+}
+
+#ppp {
+    display: flex;
+    justify-content: left;
+}
+.Border-Subscridee{
+    width: 192px;
+    height: 59px;
+    background-color: #FF7A50;
+    border-radius: 70px;
+    display: flex;
+    margin-left: 600px;
+}
+.subscride{
+    color: #FFFFFF;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+
+.E1 {
+    font-family: Rubik;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 39.11px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF6838;
+}
+
+.Food1 {
+    font-family: Rubik;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 39.11px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #363853;
+}
+.logoTwoFother{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1060px;
+    margin-top: 100px;
+}
+.socialContact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
+    gap: 10px;
+}
+.SocialSeti{
+    display: flex;
+    justify-content: space-around;
+    width: 195px;
+    height: 39px;
+    margin-left: 350px;
+}
+.servicefother{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 700px;
+    margin-top: -180px;
+    color: #37383D;
+}
+.companyfother{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 950px;
+    margin-top: -190px;
+    color: #37383D;
+}
+.supportsfother{
+    font-size: 18px;
+    display: flex;
+    color: #37383D;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 1230px;
+    margin-top: -185px;
+
+}
+.resourrces{
+    font-size: 18px;
+    display: flex;
+    color: #37383D;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 1520px;
+    margin-top: -180px;
+}
+.linefootther{
+    width: 100%;
+    height: 1px;
+    background-color: #969696;
+    margin-top: 10px;
+}
+.predlastTxt{
+    color: #646464;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1000px;
+    margin-top: 20px;
+}
+.privatPunkt{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    color: #646464;
+    margin-left: 1500px;
+    margin-top: -20px;
+
+}
+.pystoe{
+    height: 20px;
+}
